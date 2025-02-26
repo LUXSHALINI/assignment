@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <!--Nav Bar-->
+        <nav class="bg-gray-800 p-4 border-b,border-gray-700 text-left relative">
+            <div class="inline-block text-2xl">
+         <img  class="brightness 300 h-20"src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/home.png" class="w-40 cursor-pointer">   
+         </div>
+         <div class="absolute right-5 top-5 flex space-x-5">
+         <ul class="flex space x-5 gap-3">
+            <li class="text-yellow-500 hover:underline"><a href="#">Home</a></li>
+            <li class="text-white hover:underline"><a href="#about">About</a></li>
+            <li class="text-white hover:underline"><a href="#services">Services</a></li>
+            <li class="text-white hover:underline"><a href="#menu">Menu</a></li>
+     <li>
+        <div class="relative inline-block text-left">
+            <button class="text-white px-4 py-2 rounded-md hover:bg-orange-500 focus:outline-none" id="dropdownButton">Page ▼</button>
+            <div class="absolute hidden mt-2 w-30 bg-white rounded-md shadow-lg overflow-hidden border border-gray-200" id="dropdownMenu">
+                <a href="contact.html" class="block px-4 py-2 text-gray-700 font-bold hover:bg-gray-100">Contact</a>
+
+
+
+     </li>
+            <div class="relative inline-block text-left">
+ <button class="bg-white hover:bg-orange-500 text-orange font-bold py-1 px-2 rounded text-sm">Sign Up</button>
+         </ul>
+        </div>
+        </nav>
+    </div>
+    <!--section 02-->
+    <section class="relative h-screen flex-items-center justify-center text-center bg-cover bg-center" style="background-image:url('/home/ukijaffna/Desktop/Assignment 3/Assets/img/carousel-1.jpg')">
+<div class=" px-5 flex flex-col items-center justify-center space-y-4 h-full">
+    <div class="flex flex-col items-center justify-center">
+    <h1 class="text-4xl md:text-5xl font-bold text-white">From Our Kitchen to Your Table, Fresh Every Day</h1>
+    <p class="text-lg text-gray-300">Enjoy the goodness of fresh,flavorable food delivered straight to you, ready to brighten your day with every bite</p>
+    <button class="bg-yellow-600 hover:bg-orange text-orange font-bold py-1 px-2 rounded text-sm">Explore more </button>
+</div>
+</div>
+    </section>
+    <!--section 03-->
+    <section id="about">
+    <div class="grid justify-items-center space-y-4 pt-15">
+    <div class="flex flex-col  md:flex-row">
+    <div class="w-full md:w-1/2">
+      <div class=" h-screen p-8 md:p-12 flex relative">
+       
+            <img  class="w-full h-full 0bject-cover rounded-lg shadow-lg " src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/about-1.jpg">
+    
+        
+        <img class="  w-60 h-60 object-cover rounded-lg shadow-lg absolute top-4 right-15" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/about-2.jpg">
+            
+    </div>
+    </div>
+    
+    <div class="md:w-1/2 md:pl-8 lg:pl-16 mt-8 md:mt-0 w-full">
+        <button class="bg-yellow-600 hover:bg-orange text-orange font-bold py-1 px-2 rounded text-sm">About us</button>
+        <h1 class="text-4xl font-bold leading-relaxed mb-6">Join us on our journey to celebrate the art of food</h1>
+        <p class="font-bold  ">You don't have to cook fancy or complicated master pieces - just good food from fresh
+            ingredients.</p>
+        <h2>Julla child</h2>
+        <p class="text-gray-700 leading-relaxed mb-6">We use only the freshest ingredients, locally whenever
+            possible to create dishes that are as whole some as they are delicious. our team of chats works
+            tirelessly to perfect every flover and love</p>
+
+        <button class="bg-yellow-600 hover:bg-orange text-orange font-bold py-1 px-2 rounded text-sm">Learn More ➣</button>
+        
+
+        <button class="bg-white-600 hover:bg-orange text-orange font-bold py-1 px-2 rounded text-sm">Contact Us ➣</button>
+      
+        
+          </div>  
+    </div>
+    </div>
+</div>
+</section>
+</section>
+    <!--section 04-->
+    <section id="menu">
+    <div class="h-screen bg-orange-100">
+        <div class="grid justify-items-center space-y-4 pt-10">
+            <button class="bg-yellow-600 hover:bg-orange text-orange font-bold py-1 px-2 rounded text-sm">Our Specials</button>
+            <h1 class="font-bold text-2xl">Discover a variety of dishes crafted with care.</h1>
+            <div class="flex">
+        <button class="bg-orange-100 px-4 py-2 rounded-md hover:bg-orange-500">All</button>
+        <button class="bg-orange-100 text-orange px-4 py-2 rounded-md hover:bg-orange-500">Vegetatrian</button>
+        <button class="bg-orange-100 text-orange px-4 py-2 rounded-md hover:bg-orange-500">Beverages</button>
+        </div>
+        </div>
+
+        <div class="flex flex-col items-center">
+    <div class="flex gap-3 items-center px-12 pt-10">   
+    
+                
+                    <div class="flex flex-col items-center border-4 border-white border-t-orange-500 rounded-lg space-y-4 bg-white">
+                        <button class="bg-orange-500 text-white">Rice & Curry</button>
+                        <h1 class="font-bold">A Taste in Every Bite</h1>
+                        <p class="text-black-700 text base">Experience the soul of SriLankan with Rice and Curry</p>
+                        <img  class="h-40 w-40" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/courses-1.jpg">
+                    </div>
+                
+    <div class="flex flex-col items-center border-4 border-white border-t-orange-500 rounded-lg space-y-4 bg-white">
+        <button class="bg-orange-500 text-white">Koththu</button>
+        <h1 class="font-bold">Cheesy and delicious</h1>
+        <p>Every bite a perfect balance of spice and creamy goodness</p>
+        <img class="h-40 w-40" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/courses-3.jpg">
+    </div>
+
+        <div class="flex flex-col items-center border-4 border-white border-t-orange-500 rounded-lg space-y-4 bg-white">
+        <button class="bg-orange-500 text-white">Mango Juice</button>
+        <h1 class="font-bold">Refreshing and natural</h1>
+        <p>Enjoy a chill glass of fresh mango juice</p>
+        <img class="h-40 w-40" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/beverage-1.jpg">
+        </div>
+
+
+    <div class="flex flex-col items-center border-4 border-white border-t-orange-500 rounded-lg space-y-4 bg-white">
+        <button class="bg-orange-500 text-white">Milk Tea</button>
+        <h1 class="font-bold">A warm cup of comfort</h1>
+        <p>The perfect blend of tea and milk for a rich flavor</p>
+        <img class="h-40 w-40" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/beverage-2.jpg">
+    </div>
+
+</div>
+</div>
+</div>
+</section>
+        <!--section 05-->
+        <div class="h-screen bg-white-100">
+        <div class="grid justify-items-center space-y-4 pt-10">
+            <button class="bg-yellow-600 hover:bg-orange text-orange font-bold py-1 px-2 rounded text-sm">Our Specials</button>
+            <h1 class="font-bold text-2xl">Learn More What We Do Our Services</h1>
+        </div>
+<div class="flex flex-col items-center">
+    <div class="flex gap-3 items-center px-12 pt-10">
+
+                <div class="flex flex-col items-center border-4 border-white rounded-lg space-y-4 bg-white">
+                    <img  class="h-40 w-40" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/icon-1.png">
+                    <h1 class="font-bold">Fresh Ingredients</h1>
+                    <p>We handpick the finest, locally secured imgredients to create to create every dish to give healthy life</p>
+                    <button class="bg-yellow-600 hover:bg-orange text-orange font-bold py-1 px-2 rounded text-sm" >Learn More</button>
+                </div>
+
+<div class="flex space-x-3">   
+
+             <div class="flex flex-col items-center border-4 border-white rounded-lg space-y-4 bg-white">
+             
+                    <img  class="h-40 w-40"src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/icon-2.png">
+                    <div class="class-body">
+                        <h1 class="font-bold">Quality & Taste</h1>
+                        <p>Our chefs are dedicated to out the best in every recipe,ensuring bold flavors and rich textures.</p>
+                        <button class="bg-yellow-600 hover:bg-orange text-orange font-bold py-1 px-2 rounded text-sm">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex space-x-3">
+                <div class="flex flex-col items-center border-4 border-white rounded-lg space-y-4 bg-white">
+                    <img class="h-40 w-40" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/icon-3.png">
+                    <div class="class-body">
+                        <h1 class="font-bold">Cutomizable Options</h1>
+                        <p>From vegetarian to gluten-free we offer menu,options that cater to a variety of dietary needs and performnces.</p>
+                        <button class="bg-yellow-600 hover:bg-orange text-orange font-bold py-1 px-2 rounded text-sm" >Learn More</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--section 06-->
+        <div class="grid justify-items-center space-y-4 pt-10">
+        <section class="brightness 300 h-50" style="background-image:url('/home/ukijaffna/Desktop/Assignment 3/Assets/img/donate.jpg')">
+<div class=" px-5 flex flex-col items-center justify-center space-y-4 h-full">
+    <div class="flex flex-col items-center justify-center">
+    <h1 class="text-4xl md:text-5xl font-bold text-white">A Journey Flavors,Crafted with Passion</h1>
+    <p class="text-lg text-gray-200">It all Started with a passion for food and a dream of brightingnpeople together through great meals.From beginingds in a smallkitchen,we've grown into a between destinations for food lovers near.our story about family,flavor and the joy of sharing a meal.</p>
+    <button class="bg-yellow-600 hover:bg-orange text-orange font-bold py-1 px-2 rounded text-sm">Explore more </button>
+</div>
+</div>
+    </section>
+    
+       
+        <!--section 07-->
+        <section id="services">
+    <div class="grid justify-items-center space-y-4 pt-10">
+    <button class="text-orange-500">Team Members</button><br>
+    <h1 class="font-bold">Let's Meet Our Team</h1>
+</div>
+<div class="grid justify-items-center">
+<div class="flex space-x-3">
+<div class="card" style="width: 200px;">
+    <img class="card-img-top" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/team-1.jpg">
+<div class="class-body">
+    <h2 class="text-center">Velvet Dawn</h2>
+    <p class="text-orange-500 text-center">Executive Chef</p>
+</div>
+</div>
+<div class="flex space-x-3">
+    <div class="card" style="width: 200px;">
+        <img class="card-img-top" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/team-2.jpg">
+    <div class="class-body">
+        <h2 class="text-center">Crimson Vale</h2>
+        <p class="text-orange-500 text-center">Sous Chef</p>
+    </div>
+    </div>
+    <div class="flex space-x-3">
+        <div class="card" style="width: 200px;">
+            <img class="card-img-top" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/team-3.jpg">
+        <div class="class-body">
+            <h2 class=" text-center">Nova Drift</h2>
+            <p class="text-orange-500 text-center">Sous Chef</p>
+        </div>
+        </div>
+        <div class="flex grid justify-items-center">
+            <div class="card" style="width: 200px;">
+                <img class="card-img-top" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/team-4.jpg">
+            <div class="class-body">
+                <h2 class=" text-center">Blaze Storm</h2>
+                <p class="text-orange-500 text-center">Junior Chef</p>
+            </div>
+            </div>
+        </div>
+   </div>
+   </div>
+   </div>
+</section>
+   <!--section 08-->
+    <div class="grid justify-items-center space-y-4 pt-10">
+    
+   <div class="max-w-xl mx-auto text-center bg-[#] p-8 rounded-lgshadow-lg" >
+    <p class="text-sm text-orange-500 font-semibold">Feedback</p>
+    <h2 class="text-2xl font-bold text-gray-800 mt-2">Trusted By Thousands Of People</h2>
+    <div class="mt-6 flex flex-col items-center">
+        <img src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/Copy of testimonial-3.jpg" alt="image" class="w-12 h-12 rounded-full border-2 border-gray-300">
+        <p class="mt-4 text-gray-600 italic">cheese koththu was a delightful on the classic dishlife gooey method cheese beautifully with the flavors at the koththu.</p>
+     <p class="mt-2 font-semibold text-gray-700">David Lae</p>
+    </div>
+   </div>
+</div>
+
+<!--section 09-->
+<footer class="mt-12 h-80 bg-gray-800 text-white">
+    <div class="mx-auto flex space-x-6 mt-12 space-y-12">
+<div class="w-1/4">
+<div class="flex">
+<h1 class="font-bold text-2xl text-orange-700">Home</h1>
+<h1 class="font-bold text-2xl">Bites</h1>
+</div>
+<p>We take pride in serving freshly prepared dishes crafted with the first ingredients.Whether you're here for a quick bite or a grance feast,our menu offers somethingfor everyone.</p>
+<div class="flex">
+<img class="h-7 w-7" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/733635.png">
+<img class="h-7 w-7" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/1384012.png">
+<img class="h-7 w-7" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/2175193.png">
+<img class="h-7 w-7" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/3536569.png">
+</div>
+</div>
+<div class="w-1/4">
+<h1 class="font-bold" >Address</h1>
+<ul>
+    <li class="flex gap-3">
+        <img  class="h-7 w-7"src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/484167.png">
+        <p>123,Street,Jaffna,SriLanka.</p>
+    </li>
+    <li class="flex gap-3">
+        <img class="h-7 w-7" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/483947.png">
+<p>+0771234587</p>
+    </li>
+    <li class="flex gap-3">
+        <img class="h-7 w-7" src="/home/ukijaffna/Desktop/Assignment 3/Assets/img/542689.png">
+        <p>info@gmail.com</p>
+    </li>
+</ul>
+</div>
+<div class="w-1/4">
+    <h1 class="font-bold">QuickLinks</h1>
+    <ul type="point">
+        <li><span class="text-orange-500"></span>
+            <a href="#">> About Us</a>
+        </li>
+        <ul type="point">
+            <li><span class="text-orange-500"></span>
+                <a href="#">> Contact Us</a>
+            </li>
+            <ul type="point">
+                <li><span class="text-orange-500"></span>
+                    <a href="#">> Our Services</a>
+                </li>
+
+                <ul type="point">
+                    <li><span class="text-orange-500"></span>
+                        <a href="#">> Terms & Conditions</a>
+                    </li>
+    
+                    <ul type="point">
+                        <li><span class="text-orange-500"></span>
+                            <a href="#">> Support</a>
+                        </li>
+    </ul>
+</div>
+<div class="w-1/4">
+<h1 class="font-bold">Newsletter</h1>
+<p>Where Every Bites Feels Like Home</p>
+<div class="flex items-center">
+    <input type="email" placeholder="Your email" class="border-2 py-2 w-80">
+    <button class="rounded-md text-white px-2 py-2 relative right-20 bg-orange-500 h-10">Sign Up</button>
+</div>
+</div>
+    </div>
+
+</footer>
+<script>
+    document.getElementById("dropdownButton").addEventListener("click", function () {
+      document.getElementById("dropdownMenu").classList.toggle("hidden");
+    });
+  </script>
+
+</body>
+</html> 
